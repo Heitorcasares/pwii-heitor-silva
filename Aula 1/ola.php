@@ -1,6 +1,6 @@
 <?php
     // echo é o print, mas também tem ECHO ou EcHo
-     echo "Hello World!"; 
+     echo "Hello World! <br>"; 
 
      // para criar variáveis precisa colocar um sifrão antes do nome da variável
 
@@ -13,5 +13,5 @@
     // você pode juntar html com php como mostrados nos exemplos abaixo
     echo "${lindeza} <br>";
     echo  $lindeza . " é nota " . $nota;
-    echo  $lindeza . " <p> " . "é nota " . $nota . " e é o " . $ui . " <p> ";
+    echo  " <p> " . $lindeza . " é nota " . $nota . " e é o " . $ui . " <p> ";
 ?>
