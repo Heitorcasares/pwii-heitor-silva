@@ -8,8 +8,8 @@
      $nota = 11;
      $ui = "melhor professor";
 
-    // ${nome da variável} referência a variável
-    // . é contatenar
+    // ${nome da variável} referência a variável dentro da string, senão é o próprio nome da variável com o cifrão antes :)
+    // "." é contatenar
     // você pode juntar html com php como mostrados nos exemplos abaixo
     echo "${lindeza} <br>";
     echo  $lindeza . " é nota " . $nota;
