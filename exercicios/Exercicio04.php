@@ -1,5 +1,8 @@
-<form action="Exercicio04.php" method="get">
-    Insira o Valor do Produto: <input type="number" name="VL"> <br> <br>
+<form action="Exercicio04.php" method="GET">
+    Insira o Valor do Produto:
+    <input type="number" name="VL">
+    <br>
+    <br>
     <input type="submit">
 </form>
 <?php

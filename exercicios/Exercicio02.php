@@ -1,7 +1,19 @@
-<form action="Exercicio02.php" method="get">
-    Comprimento da Caixa: <input type="number" name="COM"> cm <br> <br>
-    Largura da Caixa: <input type="number" name="LAR"> cm <br> <br>
-    Altura da Caixa: <input type="number" name="ALT"> cm <br> <br>
+<form action="Exercicio02.php" method="GET">
+    Comprimento da Caixa:
+    <input type="number" name="COM">
+    cm
+    <br>
+    <br>
+    Largura da Caixa:
+    <input type="number" name="LAR">
+    cm
+    <br>
+    <br>
+    Altura da Caixa:
+    <input type="number" name="ALT">
+    cm
+    <br>
+    <br>
     <input type="submit">
 </form>
 <?php

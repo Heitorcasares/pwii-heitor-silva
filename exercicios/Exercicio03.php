@@ -1,7 +1,19 @@
-<form action="Exercicio03.php" method="get">
-    Informe o Valor da Base Maior: <input type="number" name="B"> cm <br> <br>
-    Informe o Valor da Base Menor: <input type="number" name="b"> cm <br> <br>
-    Informe o Valor da altura deste trapézio: <input type="number" name="ALT"> cm <br> <br>
+<form action="Exercicio03.php" method="GET">
+    Informe o Valor da Base Maior:
+    <input type="number" name="B">
+    cm
+    <br>
+    <br>
+    Informe o Valor da Base Menor:
+    <input type="number" name="b">
+    cm
+    <br>
+    <br>
+    Informe o Valor da altura deste trapézio:
+    <input type="number" name="ALT">
+    cm
+    <br>
+    <br>
     <input type="submit">
 </form>
 <?php
