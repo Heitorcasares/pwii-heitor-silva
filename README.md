@@ -24,17 +24,17 @@ Primeiramente, entre no site do [GitHub](https://github.com/) e entre com sua co
 
  Depois de entrar em sua conta Git acesse seu repositório, e depois clique no botão Code e copie o código https:
 
-![Tela de Login do GitHub](https://a.imagem.app/BjI1Wv.png)
+![RepositórioGit](https://a.imagem.app/BjI1Wv.png)
 
  - Configurações do terminal
 
 Agora navegue até o disco local C: e procure pela pasta xampp:
 
-![Tela de Login do GitHub](https://a.imagem.app/BjIElJ.png)
+![PastaXampp](https://a.imagem.app/BjIElJ.png)
 
 Dentro de xampp procure pela pasta htdocs e entre nela:
 
-![Tela de Login do GitHub](https://a.imagem.app/BjIve1.png)
+![DentroDoHtdocs](https://a.imagem.app/BjIve1.png)
 
 Agora dentro desta pasta clique com o botão direito do mouse e escolha a opção "Git Bash here" para abrir o terminal Git dentro desta pasta, e em seguida coloque o seguinte comando ao abrir o terminal:
 
@@ -45,7 +45,7 @@ Agora dentro desta pasta clique com o botão direito do mouse e escolha a opçã
     cd nome da pasta do seu repositório
 Depois desse comando o path do seu terminal deve estar assim:
 
-![Tela de Login do GitHub](https://a.imagem.app/BjIVft.png)
+![PathDoRepositórioGit](https://a.imagem.app/BjIVft.png)
 
 Esse main indica que você está na sua branch principal do seu repositório, mas falta configurar seu **email e nome de usuário** dentro do terminal Git, vamos conferir
 
@@ -55,4 +55,31 @@ Primeiro vamos retirar todos os Nomes e Emails que existem na máquina, segue os
 
     git config --global --unset-all user.name
     git config --global --unset-all user.email
+ 
+ Após excluir todos os usuários e emails da máquina começara a inserção dos seus dados de "name" e "email", que fara da seguinte forma:
 
+    git config --global user.name "NomeDoSeuUsuárioDoGitHub"
+    git config --global user.email "EmailDaSuaContaGitHub"
+
+Terminando essa linha de códigos sua configuração está pronta!
+
+## Instalação e Configuração do Laravel
+
+ - Instalação das dependências
+ Começamos indo para o site do [Laravel](https://laravel.com/), clicando em "Get Started" ele nos mostra a sua documentação, clique na aba "Installation" e desça até achar o título "Creating a Laravel Application" onde estará as dependências:
+
+![DependenciasLaravel](https://a.imagem.app/Bjy8zm.png)
+
+Precisamos de cinco dependências para rodar o Laravel em nossa máquina que são: PHP, Laravel Installer, Composer, Node and NPM (Opcional) e Bun(Opcional). Primeiro vamos baixar o Composer, clique no Composer em vermelho e ele irá te redirecionar para a página do Composer. Clicando aparece esta tela:
+
+![Composer](https://a.imagem.app/Bjy3BQ.png)
+
+Clique em download para baixar o instalador do Composer, ao fazer isso irá abrir uma página ensinando como instalar, apenas clique no "Composer-Setup.exe" que estará em azul. Com o instalador do Composer baixado execute ele para começar a instalação.
+
+Após instalar o Composer em sua máquina volte para a página do Laravel e copie este código para poder instalar o Laravel em sua máquina:
+
+    composer global  require  laravel/installer
+
+Abra o cmd e cole este comando. Pronto o seu laravel está instalado! Agora crie uma pasta onde você quiser e inicie uma aplicação em Laravel, abrindo o cmd nessa mesma pasta execute o comando:
+
+    laravel new NomeDaAplicação-app
