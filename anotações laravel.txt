@@ -1,0 +1,11 @@
+baixar as dependências laravel;
+
+duplicar .env.example e renomear o arquivo copiado para ".env";
+
+executar o comando "composer install" para instalar as dependências php na pasta vendor (Composer instalado e estar ligado a internet);
+
+npm : instalar as dependências javascript e node e criar o "node modules"; Se tiver o vite rode: npm run build;
+
+Gerar chave de criptografia com "php artisan key:generate";
+
+rodar "php artisan migrate" para criar database e rodar o migrations;
